@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    background: url("background1.jpg");
+    background-size: 100%;
+    opacity: 97%;
+}
+
+.h1 {
+    opacity: 98%;
+    background-image: linear-gradient(-240deg, red, orange, yellow, lightgreen, blue, purple);
+    background-size: cover;
+    border-radius: 25px;
+    display: flex;
+    border: rgb(6, 6, 66);
+    margin: 0px;
+    box-shadow: 0 5px 0 rgb(5, 5, 61);
+}
+
+.title-sobre {
+    font-size: 36px;
+    font-family: poppins;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: black 0.2em 0.2em 0.3em;
+}
+
+.rodape {
+    font-family: poppins;
+    color: white;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    padding: 30px;
+    margin-top: 95px;
+    background: linear-gradient(-230deg, rgb(223, 50, 79), rgb(149, 0, 149), purple, darkblue);
+    border: 2px solid blue;
+}
+
+.socials {
+    display: inline-flex;
+    margin-right: 40px;
+    justify-content: space-between;
+}
+
+.socials a {
+    color: aqua;
+}
+
+.central {
+    display: flex;
+    justify-content: space-around;
+}
+
+.me {
+    padding: 30px;
+}
+
+#eu {
+    width: 140px;
+    border-radius: 40%;
+    float: left;
+}
+
+.text-sobre {
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    font: "Arial" bold;
+    display: flex;
+    flex-direction: column;
+    opacity: 97%;
+    background-color: rgb(65, 65, 88);
+    border-radius: 30px;
+    border: rgb(44, 0, 93) double;
+    box-shadow: 0 5px 0 rgb(0, 0, 0);
+    padding: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .h1 {
+        padding: 0;
+        font-size: medium;
+        align-items: center;
+    }
+    .central {
+        flex-direction: column;
+        align-items: center;
+    }
+    .text-sobre {
+        padding: 20px;
+        margin-top: 0;
+    }
+    .rodape {
+        display: flex;
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .socials {
+        display: inline-flex;
+        flex-direction: column;
+        margin-right: 0;
+    }
+}
+
+
+/* @media screen and (max-width: 768px) {
+    .h1 {
+        padding: 0;
+        font-size: medium;
+        align-items: center;
+    }
+    .textin {
+        flex-direction: column;
+        text-align: center;
+    }
+    .geral {
+        padding: 10px;
+    }
+    .geral input[type="text"],
+    .geral input[type="email"],
+    .geral textarea {
+        padding: 5px;
+        width: 100%;
+        height: 100%;
+    }
+    .rodape {
+        display: flex;
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .socials {
+        display: inline-flex;
+        flex-direction: column;
+        margin-right: 0;
+    }
+} */
